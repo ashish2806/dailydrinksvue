@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #a97d03;
+    padding: 2px 5px;
+    box-sizing: border-box;
+}
+a:hover {
+    color: #b78d18;
+    outline: 1px solid #b78d18;
+}

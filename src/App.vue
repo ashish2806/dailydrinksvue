@@ -1,22 +1,34 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>DAILYDRINKS</h1>
+    <div style="width: 50%; float: left">
+      <OrderForm></OrderForm>
+    </div>
+    <div style="width: 50%; float: left">
+      <OrderList></OrderList>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import OrderForm from "./components/OrderForm";
+import OrderList from "./components/OrderList";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      OrderList,
+      OrderForm
   }
 }
 </script>
 
 <style>
+  h1 {
+    margin-left: 50px;
+  }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
