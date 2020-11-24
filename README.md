@@ -7,7 +7,7 @@ https://github.com/ashish2806/dailydrinksvue
 
 ## Clone or download 
 ```
-git clone git@github.com:ashish2806/dailydrinksvue.git
+git clone https://github.com/ashish2806/dailydrinksvue.git
 ```
 
 ##  Go to directory 
